@@ -1,0 +1,29 @@
+{
+  "require": {
+    "tmtbe/swooledistributed": "2.9.10",
+    "firebase/php-jwt": "^5.0",
+    "aliyuncs/oss-sdk-php": "^2.3",
+    "qcloudsms/qcloudsms_php": "0.1.*",
+    "endroid/qr-code": "^3.2",
+    "phpoffice/phpspreadsheet": "^1.2",
+    "jesusslim/pinject":"1.2.3",
+    "workerman/mqtt": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/app",
+      "test\\": "src/test"
+    },
+    "files": [
+      "src/app/Helpers/Common.php"
+    ]
+  },
+  "require-dev": {
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
